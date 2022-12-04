@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>My Contact</title>
+</head>
+
+<body>
+    <h2>Contact Details:</h2>
+    <hr size="3" noshade="">
+    <ul>
+        <li><b>Address:</b></li>
+        <p>Mumbai,Maharashtra,India.</p>
+        <li><b>Phone:</b></li>
+        <p>+91-8483877780</p>
+        <li><b>Email:</b></li>
+        <p><em>vishalgophane19@gmail.com</em></p>
+    </ul>
+    <hr>
+    <h2>Enquiry:</h2>
+    <h3>Sign In:</h3>
+<form action="mailto:vishalgophane19@gmail.com" method="post" enctype="text/plain">
+    <label for="username">Username:</label>
+    <input id="name" name="username" type="text" autofocus required value="enter your email...">
+    <br>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" required>
+    <br>
+    <a herf=" "><b>forget password?</b></a>
+    <button type="submit">Sign in</button>
+    <button type="reset">Cancle</button> 
+  
+
+</form>
+    <h3>Sign Up:</h3>
+    <style>
+        label {
+            display: inline-block;
+            width: 180px;
+            font-weight: bold;
+            color: black;
+        }
+        input:invalid {
+            border: 1px solid rgb(230, 9, 9);
+        }
+
+        input :valid {
+            border: 1px solid rgb(13, 230, 9);
+        }
+
+    </style>
+    <style>
+        body{ font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        input[type=text],input[type=password],input[type=tel],input[type=date],input[type=email]
+{
+width: 30%;
+padding: 10px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+input[type=text]:focus,
+input[type=password]:focus,input[type=tel]:focus,input[type=date]:focus,input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+button{
+    background-color: #04AA6D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    opacity: 0.9;
+}
+button:hover{
+opacity: 1;
+}
+    </style>
+
+    <form lass =" " action="mailto:vishalgophane19@gmail.com" method="post" enctype="text/plain">
+        <label for="name"> Your Name:</label>
+        <input id="name" name="Your Name:" type="text" value="Enter your name..." autofocus required value="">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email:" value="Enter your email..." autofocus required>
+        <br>
+        <label for="Phone" space="20">Phone Number:</label>
+        <input type="tel" id="phone" name="Phone Number:" value="Enter valid phone number..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <small>Format: 123-456-7890</small>
+        <br>
+        <label for="">Date of Birth:</label>
+        <input type="date" name="Date of Birth:" value="Enter Date of Birth..." autofocus required>
+        <br>
+        <label for="">Set Password:</label>
+        <input type="password" name="" value="" autofocus required>
+        <br>
+        <label for="">Confirm Password:</label>
+        <input type="password" name="" value="" autofocus required>
+        <br>
+        <label for=""></label>
+
+        <br>
+        <label for="Description">Add Description:</label>
+        <br>
+        <textarea type =text name="Description" id="Deccription" cols="30" rows="10" from="usrfrom">Enter text here...
+       </textarea>
+        <br>
+        <label for="">accept terms and conditions:</label>
+        <input type="checkbox">
+        <br>
+        <button>submit</button>
+       <button type="reset">Reset</button>
+      
+       
+    </form>
+</body>
+
+</html>
